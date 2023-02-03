@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+body {
+  height: 100vh;
+  background-color: #1c1c1c;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: .8rem 1.5rem;
+  background: linear-gradient(90deg, rgba(132, 53, 222, 1) 0%, rgba(184, 84, 232, 1) 100%);
+  border-radius: 3rem;
+  border: none;
+  transition: .3s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, rgba(184, 84, 232, 1) 0%, rgba(132, 53, 222, 1) 100%);
+}
